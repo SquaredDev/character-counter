@@ -14,7 +14,5 @@ rl.question('What is the input text? ', (answer) => {
   else {
     console.log(`You text was \'${answer}\'. \'${answer}\' has ${count} character.`);
   }
-
-
   rl.close();
 });
