@@ -6,13 +6,11 @@ const rl = readline.createInterface({
 });
 
 rl.question('What is the input text? ', (answer) => {
-  let count = answer.length
-
-  if (count > 1 || count < 1) {
-    console.log(`You text was \'${answer}\'. \'${answer}\' has ${count} characters.`);
+  if (answer.length > 1 || answer.length < 1) {
+    console.log(`You text was \'${answer}\'. \'${answer}\' has ${answer.length} characters.`);
   }
   else {
-    console.log(`You text was \'${answer}\'. \'${answer}\' has ${count} character.`);
+    console.log(`You text was \'${answer}\'. \'${answer}\' has ${answer.length} character.`);
   }
   rl.close();
 });
