@@ -2,6 +2,9 @@
   "name": "character-counter",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
   "author": "James <boydston.j@gmail.com>",
   "license": "MIT",
   "repository": "git@github.com:SquaredDev/character-counter.git"
