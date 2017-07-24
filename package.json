@@ -1,0 +1,7 @@
+{
+  "name": "character-counter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "James <boydston.j@gmail.com>",
+  "license": "MIT"
+}
